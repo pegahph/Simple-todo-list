@@ -1,6 +1,6 @@
 import { DragDropContext, DropResult } from "@hello-pangea/dnd";
 import React, { useState } from "react";
-import TaskList from "./components/task/TaskList";
+import TaskList from "./components/task/TaskList/TaskList";
 
 interface TaskLists {
   [key: string]: Task[];

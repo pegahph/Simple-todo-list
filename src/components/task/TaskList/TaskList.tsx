@@ -1,9 +1,9 @@
 import { Draggable, Droppable } from "@hello-pangea/dnd";
 import React from "react";
-import { TaskStateDisplayText } from "../../enums";
-import EmptySection from "../emptySection/EmptySection";
-import AddTask from "./addTask/AddTask";
-import Task from "./Task";
+import { TaskStateDisplayText } from "../../../enums";
+import EmptySection from "../../emptySection/EmptySection";
+import AddTask from "../addTask/AddTask";
+import Task from "../Task";
 
 interface TaskListProps {
   type: TaskStateType;
