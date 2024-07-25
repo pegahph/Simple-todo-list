@@ -30,38 +30,46 @@ This project is a modern, interactive Todo List application built with React, Ty
 ### Installation
 
 1. Clone the repository:
-   `bash
+
+```bash
 git clone https://github.com/yourusername/react-todo-list.git
 cd react-todo-list
-`
+```
 
 2. Install dependencies:
-   `bash
-npm install
-`
+   ```bash
+   npm install
+   ```
+
+````
    or if you're using yarn:
-   `bash
+  ```bash
 yarn install
-`
+````
 
 3. Start the development server:
-   `bash
-npm run dev
-`
+   ```bash
+   npm run dev
+   ```
+
+```
    or if you're using yarn:
    `bash
 yarn dev
-`
+```
 
 4. Open your browser and visit `http://localhost:3000` to see the app running.
 
 ## Running Tests
 
 To run the test suite:
-`bash
+
+```bash
 npm run test
-`
+```
+
 or with yarn:
-`bash
+
+```bash
 yarn test
-`
+```
