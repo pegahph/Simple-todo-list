@@ -37,15 +37,16 @@ cd react-todo-list
 ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    ```
 
-````
    or if you're using yarn:
-  ```bash
+
+```bash
 yarn install
-````
+```
 
 3. Start the development server:
    ```bash
