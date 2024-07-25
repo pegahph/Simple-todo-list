@@ -12,10 +12,13 @@ const Task = forwardRef<HTMLDivElement, TaskProps>(
       <div
         ref={ref}
         className={`p-3 rounded border border-gray-200 flex items-center justify-between ${className}`}
+        data-testid="task-container"
         {...divProps}
       >
         <div className="flex-1 min-w-0 mr-2 break-words">
-          <div className="whitespace-pre-wrap">{children}</div>
+          <div className="whitespace-pre-wrap" data-testid="task-content">
+            {children}
+          </div>
         </div>
         {onDelete && (
           <button
@@ -24,6 +27,7 @@ const Task = forwardRef<HTMLDivElement, TaskProps>(
               onDelete();
             }}
             className="text-gray-400 hover:text-red-500 transition-colors duration-200 flex-shrink-0 ml-2"
+            data-testid="delete-button"
           >
             <FaTrash />
           </button>
