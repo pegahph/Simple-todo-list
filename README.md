@@ -42,22 +42,22 @@ cd react-todo-list
    npm install
    ```
 
-   or if you're using yarn:
-
-```bash
-yarn install
-```
+or if you're using yarn:
+`bash
+    yarn install
+    `
 
 3. Start the development server:
+
    ```bash
    npm run dev
    ```
 
-```
    or if you're using yarn:
-   `bash
-yarn dev
-```
+
+   ```bash
+   yarn dev
+   ```
 
 4. Open your browser and visit `http://localhost:3000` to see the app running.
 
