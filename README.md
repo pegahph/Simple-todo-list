@@ -41,11 +41,10 @@ cd react-todo-list
    ```bash
    npm install
    ```
-
-or if you're using yarn:
-`bash
+    or if you're using yarn:
+    ```bash
     yarn install
-    `
+    ```
 
 3. Start the development server:
 
