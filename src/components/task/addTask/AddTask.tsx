@@ -1,6 +1,6 @@
 import React, { KeyboardEvent, useEffect, useRef, useState } from "react";
-import Button from "../ui/Button";
-import Task from "./Task";
+import Button from "../../ui/Button";
+import Task from "../Task";
 
 interface AddTaskProps {
   onAdd: (content: string) => void;
